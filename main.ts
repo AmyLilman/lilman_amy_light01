@@ -28,7 +28,7 @@ while (true) {
     } else if (input.lightLevel() > 200) {
         light.setAll(light.rgb(255, 255, 0))
     } else {
-        light.clear()
+        light.setAll(light.rgb(0, 255, 0))
     }
     
 }

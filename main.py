@@ -31,4 +31,4 @@ while True:
     elif input.light_level() > 200:
         light.set_all(light.rgb(255,255,0))
     else:
-        light.clear()
+        light.set_all(light.rgb(0,255,0))
